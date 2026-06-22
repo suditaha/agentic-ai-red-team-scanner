@@ -3,6 +3,9 @@
 <img width="800" height="500" alt="ChatGPT Image Jun 21, 2026, 03_55_03 PM" src="https://github.com/user-attachments/assets/a6859326-b82a-410e-b7ac-2bf4df41eb8a" />
 
 ## 1. Executive Summary
+
+<img width="1214" height="726" alt="Screenshot 2026-06-21 at 4 35 32 PM" src="https://github.com/user-attachments/assets/fdc77241-8293-4ea0-91e8-6968d3abab6d" />
+
 ScopeGuard AI is a cutting-edge, autonomous security posture management (ASPM) and active red-teaming orchestrator designed specifically to secure modern web infrastructure and Agentic AI/LLM applications. By leveraging advanced Agentic AI reasoning, ScopeGuard AI continuously simulates sophisticated audits against web perimeters and intelligent nodes to identify critical vulnerabilities before malicious actors can exploit them.
 
 In an era where software deployment velocity and AI integration outpace traditional manual security testing, ScopeGuard AI provides an automated, precise "hacker-in-a-box" auditing solution. It goes beyond static vulnerability scanning by employing cognitive processing loops capable of analyzing response envelopes, detecting network misconfigurations, and executing targeted AI safety checks. This platform empowers security teams to validate their complete attack surface in real-time, ensuring resilience against modern threats.
@@ -54,6 +57,7 @@ The ScopeGuard AI architecture is designed for security, scalability, and respon
 * **Persistence Layer:** Structured JSON database transaction layer handling scan records, real evidence logs, and historical status updates.
 
 ### Data Flow
+
 1. **User Input:** User defines target domain and asset type (e.g., *Website*, *Chatbot*, *RAG System*) inside the ScopeGuard UI.
 2. **Initialization:** Server boots active scan and spawns automated scanner thread sequences.
 3. **Execution Loop:**
@@ -112,9 +116,12 @@ ScopeGuard AI employs a Goal-Oriented Agentic Architecture.
 ---
 
 ## 7. User Workflow (Step-by-Step)
+
+<img width="1213" height="753" alt="Screenshot 2026-06-21 at 4 40 03 PM" src="https://github.com/user-attachments/assets/3fad32ff-b376-4b2b-b245-a09efb184c9f" />
+
 1. **Access Portal:** User opens the ScopeGuard AI interface.
 2. **Setup Asset:** User specifies the target address (e.g., `huggingface.co`) and selects the target type.
-3. **Trigger Scan:** User clicks **Run New Scan**.
+3. **Trigger Scan:** User goes to the **Scanners & Live** section and clicks **Launch**.
 4. **Watch Live Log:** The UI displays a live, terminal-style feed logging sequential updates (e.g. "Checking A / MX / TXT records...", "TLS version negotiated...", "Injecting system override payload...").
 5. **Review Results:** The platform displays generated items, categorizing vulnerabilities by risk level.
 6. **Remediation & Export:** User reviews raw wire evidence, copies exact reproduction commands, and downloads the compliant audit report.
